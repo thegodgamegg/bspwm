@@ -134,11 +134,13 @@ alt + shift + {Left,Down,Up,Right}
 # CUSTOM
 # ---------------------------------------------
 
-# Brave-browser
+# chrome-browser
 
 super + shift + g
 	google-chrome
-
+#firefox-browser
+super + shift + f
+	firefox
 # Block screen
 ctrl + super + alt + x
 		i3lock-fancy
@@ -146,3 +148,12 @@ ctrl + super + alt + x
 # Open Burpsuite Professional
 #super + ctrl + b
 #	gksudo burp
+
+#start openvpn htb
+super + shift + o
+	gksudo openvpn /etc/openvpn/client/thegodgamegg.ovpn &
+
+
+# Session management (log out, lock, switch users, reboot, shutdown).
+super + l
+	systemctl suspend
