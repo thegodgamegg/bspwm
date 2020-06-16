@@ -6,7 +6,7 @@ wmname LG3D &
 
 compton --config /home/thegodgamegg/.config/compton/compton.conf &
 
-feh --bg-fill  /home/thegodgamegg/.config/compton/wallpapar/background.png  &
+feh --bg-fill  /home/thegodgamegg/.config/compton/wallpaper/background.png  &
 
 ~/.config/polybar/launch.sh &
 
