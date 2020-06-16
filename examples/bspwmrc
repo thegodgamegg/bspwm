@@ -4,9 +4,9 @@ sxhkd &
 
 wmname LG3D &
 
-compton --config /home/julian/.config/compton/compton.conf &
+compton --config /home/thegodgamegg/.config/compton/compton.conf &
 
-feh --bg-fill  ~/.config/compton/background.png  &
+feh --bg-fill  /home/thegodgamegg/.config/compton/wallpapar/background.png  &
 
 ~/.config/polybar/launch.sh &
 
