@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	konsole
+	mate-terminal
 
 # program launcher
 super + d
@@ -157,3 +157,13 @@ super + shift + o
 # Session management (log out, lock, switch users, reboot, shutdown).
 super + l
 	systemctl suspend
+
+#open explorer 
+super + e
+	/usr/bin/caja --no-desktop --browser %U
+
+#print screen
+print 
+	mate-screenshot 
+	
+
